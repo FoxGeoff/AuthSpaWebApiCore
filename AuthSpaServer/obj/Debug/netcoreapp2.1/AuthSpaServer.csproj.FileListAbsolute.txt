@@ -1,0 +1,14 @@
+C:\Users\geoff\GitHub\AuthSpa\AuthSpaServer\bin\Debug\netcoreapp2.1\AuthSpaServer.deps.json
+C:\Users\geoff\GitHub\AuthSpa\AuthSpaServer\bin\Debug\netcoreapp2.1\AuthSpaServer.runtimeconfig.json
+C:\Users\geoff\GitHub\AuthSpa\AuthSpaServer\bin\Debug\netcoreapp2.1\AuthSpaServer.runtimeconfig.dev.json
+C:\Users\geoff\GitHub\AuthSpa\AuthSpaServer\bin\Debug\netcoreapp2.1\AuthSpaServer.dll
+C:\Users\geoff\GitHub\AuthSpa\AuthSpaServer\bin\Debug\netcoreapp2.1\AuthSpaServer.pdb
+C:\Users\geoff\GitHub\AuthSpa\AuthSpaServer\obj\Debug\netcoreapp2.1\AuthSpaServer.csprojAssemblyReference.cache
+C:\Users\geoff\GitHub\AuthSpa\AuthSpaServer\obj\Debug\netcoreapp2.1\AuthSpaServer.csproj.CoreCompileInputs.cache
+C:\Users\geoff\GitHub\AuthSpa\AuthSpaServer\obj\Debug\netcoreapp2.1\AuthSpaServer.RazorAssemblyInfo.cache
+C:\Users\geoff\GitHub\AuthSpa\AuthSpaServer\obj\Debug\netcoreapp2.1\AuthSpaServer.RazorAssemblyInfo.cs
+C:\Users\geoff\GitHub\AuthSpa\AuthSpaServer\obj\Debug\netcoreapp2.1\AuthSpaServer.AssemblyInfoInputs.cache
+C:\Users\geoff\GitHub\AuthSpa\AuthSpaServer\obj\Debug\netcoreapp2.1\AuthSpaServer.AssemblyInfo.cs
+C:\Users\geoff\GitHub\AuthSpa\AuthSpaServer\obj\Debug\netcoreapp2.1\AuthSpaServer.RazorTargetAssemblyInfo.cache
+C:\Users\geoff\GitHub\AuthSpa\AuthSpaServer\obj\Debug\netcoreapp2.1\AuthSpaServer.dll
+C:\Users\geoff\GitHub\AuthSpa\AuthSpaServer\obj\Debug\netcoreapp2.1\AuthSpaServer.pdb

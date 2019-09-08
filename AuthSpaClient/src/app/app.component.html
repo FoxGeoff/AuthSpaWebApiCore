@@ -1,0 +1,8 @@
+<mat-toolbar color="primary" [class.mat-elevation-z4]="true">
+    <button mat-button [routerLink]="['']">{{title}}</button>
+    <button mat-icon-button matTooltip="Customer Manager" [routerLink]="['/customermanager']">
+        <mat-icon>people_outine</mat-icon>
+    </button>
+</mat-toolbar>
+
+<router-outlet></router-outlet>
