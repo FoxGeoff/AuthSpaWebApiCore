@@ -1,0 +1,11 @@
+C:\Users\geoff\GitHub\Coffee_Autho\Pluralsight.AuthorizationServer\bin\Debug\netcoreapp2.0\Pluralsight.AuthorizationServer.deps.json
+C:\Users\geoff\GitHub\Coffee_Autho\Pluralsight.AuthorizationServer\bin\Debug\netcoreapp2.0\Pluralsight.AuthorizationServer.runtimeconfig.json
+C:\Users\geoff\GitHub\Coffee_Autho\Pluralsight.AuthorizationServer\bin\Debug\netcoreapp2.0\Pluralsight.AuthorizationServer.runtimeconfig.dev.json
+C:\Users\geoff\GitHub\Coffee_Autho\Pluralsight.AuthorizationServer\bin\Debug\netcoreapp2.0\Pluralsight.AuthorizationServer.dll
+C:\Users\geoff\GitHub\Coffee_Autho\Pluralsight.AuthorizationServer\bin\Debug\netcoreapp2.0\Pluralsight.AuthorizationServer.pdb
+C:\Users\geoff\GitHub\Coffee_Autho\Pluralsight.AuthorizationServer\obj\Debug\netcoreapp2.0\Pluralsight.AuthorizationServer.csprojAssemblyReference.cache
+C:\Users\geoff\GitHub\Coffee_Autho\Pluralsight.AuthorizationServer\obj\Debug\netcoreapp2.0\Pluralsight.AuthorizationServer.csproj.CoreCompileInputs.cache
+C:\Users\geoff\GitHub\Coffee_Autho\Pluralsight.AuthorizationServer\obj\Debug\netcoreapp2.0\Pluralsight.AuthorizationServer.AssemblyInfoInputs.cache
+C:\Users\geoff\GitHub\Coffee_Autho\Pluralsight.AuthorizationServer\obj\Debug\netcoreapp2.0\Pluralsight.AuthorizationServer.AssemblyInfo.cs
+C:\Users\geoff\GitHub\Coffee_Autho\Pluralsight.AuthorizationServer\obj\Debug\netcoreapp2.0\Pluralsight.AuthorizationServer.dll
+C:\Users\geoff\GitHub\Coffee_Autho\Pluralsight.AuthorizationServer\obj\Debug\netcoreapp2.0\Pluralsight.AuthorizationServer.pdb

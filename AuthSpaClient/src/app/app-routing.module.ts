@@ -11,7 +11,7 @@ const routes: Routes = [
   //{ path: 'invoiceproductmanager', loadChildren: './invoice-productmanager/invoice-productmanager.module#InvoiceProductmanagerModule' },
   //{ path: 'productmanager', loadChildren: './productmanager/productmanager.module#ProductmanagerModule' },
   //{ path: 'demo', loadChildren: './demo/demo.module#DemoModule' },
-  { path: '**', component: PageNotFoundComponent, canActivate: [AuthGuardService] }
+  { path: '**', component: PageNotFoundComponent }
   
 ]
 @NgModule({
