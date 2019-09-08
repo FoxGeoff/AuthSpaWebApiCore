@@ -12780,11 +12780,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\geoff\\GitHub\\Coffee_Autho\\Pluralsight.AuthorizationServer\\Pluralsight.AuthorizationServer.csproj",
+      "projectUniqueName": "C:\\Users\\geoff\\GitHub\\AuthSpaWebApiCore\\AuthSpaIDP\\Pluralsight.AuthorizationServer.csproj",
       "projectName": "Pluralsight.AuthorizationServer",
-      "projectPath": "C:\\Users\\geoff\\GitHub\\Coffee_Autho\\Pluralsight.AuthorizationServer\\Pluralsight.AuthorizationServer.csproj",
+      "projectPath": "C:\\Users\\geoff\\GitHub\\AuthSpaWebApiCore\\AuthSpaIDP\\Pluralsight.AuthorizationServer.csproj",
       "packagesPath": "C:\\Users\\geoff\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\geoff\\GitHub\\Coffee_Autho\\Pluralsight.AuthorizationServer\\obj\\",
+      "outputPath": "C:\\Users\\geoff\\GitHub\\AuthSpaWebApiCore\\AuthSpaIDP\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
