@@ -11506,11 +11506,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\geoff\\GitHub\\AuthSpa\\AuthSpaServer\\AuthSpaServer.csproj",
+      "projectUniqueName": "C:\\Users\\geoff\\GitHub\\AuthSpaWebApiCore\\AuthSpaServer\\AuthSpaServer.csproj",
       "projectName": "AuthSpaServer",
-      "projectPath": "C:\\Users\\geoff\\GitHub\\AuthSpa\\AuthSpaServer\\AuthSpaServer.csproj",
+      "projectPath": "C:\\Users\\geoff\\GitHub\\AuthSpaWebApiCore\\AuthSpaServer\\AuthSpaServer.csproj",
       "packagesPath": "C:\\Users\\geoff\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\geoff\\GitHub\\AuthSpa\\AuthSpaServer\\obj\\",
+      "outputPath": "C:\\Users\\geoff\\GitHub\\AuthSpaWebApiCore\\AuthSpaServer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
