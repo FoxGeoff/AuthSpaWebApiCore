@@ -1,25 +1,41 @@
-﻿using IdentityServer4.Test;
+﻿// Copyright (c) Brock Allen & Dominick Baier. All rights reserved.
+// Licensed under the Apache License, Version 2.0. See LICENSE in the project root for license information.
+
+
+using IdentityModel;
+using IdentityServer4.Test;
 using System.Collections.Generic;
 using System.Security.Claims;
 
-namespace Pluralsight.AuthorizationServer
+namespace IdentityServer4.Quickstart.UI
 {
     public class TestUsers
     {
-        public static readonly List<TestUser> Users = new List<TestUser>
+        public static List<TestUser> Users = new List<TestUser>
         {
-            new TestUser
-            {
-                SubjectId = "774a0068e9c04e97ba6a96f85f61c05c",
-                Username = "scott",
-                Password = "scott",
-                Claims =
+            new TestUser{SubjectId = "818727", Username = "alice", Password = "alice", 
+                Claims = 
                 {
-                    new Claim("given_name", "Scott"),
-                    new Claim("family_name", "Brady"),
-                    new Claim("email", "scott@scottbrady91.com"),
-                    new Claim("email_verified", "true"),
-                    new Claim("website", "https://www.scottbrady91.com")
+                    new Claim(JwtClaimTypes.Name, "Alice Smith"),
+                    new Claim(JwtClaimTypes.GivenName, "Alice"),
+                    new Claim(JwtClaimTypes.FamilyName, "Smith"),
+                    new Claim(JwtClaimTypes.Email, "AliceSmith@email.com"),
+                    new Claim(JwtClaimTypes.EmailVerified, "true", ClaimValueTypes.Boolean),
+                    new Claim(JwtClaimTypes.WebSite, "http://alice.com"),
+                    new Claim(JwtClaimTypes.Address, @"{ 'street_address': 'One Hacker Way', 'locality': 'Heidelberg', 'postal_code': 69118, 'country': 'Germany' }", IdentityServer4.IdentityServerConstants.ClaimValueTypes.Json)
+                }
+            },
+            new TestUser{SubjectId = "88421113", Username = "bob", Password = "bob", 
+                Claims = 
+                {
+                    new Claim(JwtClaimTypes.Name, "Bob Smith"),
+                    new Claim(JwtClaimTypes.GivenName, "Bob"),
+                    new Claim(JwtClaimTypes.FamilyName, "Smith"),
+                    new Claim(JwtClaimTypes.Email, "BobSmith@email.com"),
+                    new Claim(JwtClaimTypes.EmailVerified, "true", ClaimValueTypes.Boolean),
+                    new Claim(JwtClaimTypes.WebSite, "http://bob.com"),
+                    new Claim(JwtClaimTypes.Address, @"{ 'street_address': 'One Hacker Way', 'locality': 'Heidelberg', 'postal_code': 69118, 'country': 'Germany' }", IdentityServer4.IdentityServerConstants.ClaimValueTypes.Json),
+                    new Claim("location", "somewhere")
                 }
             }
         };
