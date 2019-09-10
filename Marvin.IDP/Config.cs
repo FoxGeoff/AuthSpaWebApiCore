@@ -79,6 +79,7 @@ namespace Marvin.IDP
         {
             return new List<ApiResource>
             {
+                new ApiResource("api1", "My API #1"),
                 new ApiResource("imagegalleryapi", "Image Gallery API",
                 new List<string>() {"role" } )
                 {
@@ -101,7 +102,7 @@ namespace Marvin.IDP
                     AccessTokenType = AccessTokenType.Reference,
                     //IdentityTokenLifetime = ...
                     //AuthorizationCodeLifetime = ...
-                    AccessTokenLifetime = 120,       
+                    AccessTokenLifetime = 120,
                     AllowOfflineAccess = true,
                     //AbsoluteRefreshTokenLifetime = ...
                     UpdateAccessTokenClaimsOnRefresh = true,
@@ -127,7 +128,20 @@ namespace Marvin.IDP
                     {
                         new Secret("secret".Sha256())
                     }
-                }
+                },
+
+                new Client {
+                ClientId = "angular_spa",
+                ClientName = "Angular 4 Client",
+                AllowedGrantTypes = GrantTypes.Code,
+                RequirePkce = true,
+                RequireClientSecret = false,
+                AllowedScopes = new List<string> {"openid", "profile", "api1"},
+                RedirectUris = new List<string> {"http://localhost:4200/auth-callback", "http://localhost:4200/silent-refresh.html"},
+                PostLogoutRedirectUris = new List<string> {"http://localhost:4200/"},
+                AllowedCorsOrigins = new List<string> {"http://localhost:4200"},
+                AllowAccessTokensViaBrowser = true
+            }   
              };
 
         }

@@ -7,12 +7,16 @@ import { MaterialModule } from './shared/material.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { DeskTopComponent } from './desk-top/desk-top.component';
+import { CallApiComponent } from './call-api/call-api.component';
+import { AuthCallbackComponent } from './auth-callback/auth-callback.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PageNotFoundComponent,
-    DeskTopComponent
+    DeskTopComponent,
+    CallApiComponent,
+    AuthCallbackComponent
   ],
   imports: [
     BrowserModule,
